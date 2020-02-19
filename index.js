@@ -5,7 +5,7 @@ const supervillains = require('supervillains');
 //saves two variables of a random hero and villian
 var mySuperHeroName = superheroes.random();
 var mySuperVillainName = supervillains.random();
-
+//COMMENT
 //displays the hero and villain to the console
 console.log(mySuperHeroName);
 console.log(mySuperVillainName);
@@ -23,11 +23,11 @@ console.log(myThoughts);
 //add package for popular movies and displays it
 const Movie = require('popular-movie-quotes');
 var myMovie = Movie.getRandomQuote();
-console.log(myMovie); 
+console.log(myMovie);
 
-//famous last wordsconst 
+//famous last wordsconst
 famousLastWords = require('famous-last-words');
-console.log(famousLastWords[10]); 
+console.log(famousLastWords[10]);
 
 //copy above information to a file
 const fs = require("fs");
